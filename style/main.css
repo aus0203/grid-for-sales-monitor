@@ -16,7 +16,7 @@ body {
       grid-template-columns: 94px 1fr;
   -ms-grid-rows: 52px 95px 1fr;
       grid-template-rows: 52px 95px 1fr;
-      grid-template-areas: "header header" "side- bar sec-header" "side-bar main-area";
+      grid-template-areas: "header header" "side-bar sec-header" "side-bar main-area";
   height: 100vh;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .grid-for-sales .sec-header {
   -ms-grid-row: 2;
-  -ms-grid-column: 3;
+  -ms-grid-column: 2;
   grid-area: sec-header;
   background-color: #8fd4d9;
 }
@@ -87,7 +87,8 @@ body {
 }
 
 .grid-for-sales .side-bar {
-  -ms-grid-row: 3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: side-bar;
   background-color: #009FB7;
