@@ -14,8 +14,8 @@ body{
     grid-template-rows: 52px 95px 1fr;
     grid-template-areas:
     "header header"
-    "sidebar sec-header"
-    "sidebar main-area";
+    "side- bar sec-header"
+    "side-bar main-area";
     height: 100vh;
 
 
@@ -63,8 +63,8 @@ body{
             }
         }
     }
-    .sidebar{
-        grid-area: sidebar;
+    .side-bar{
+        grid-area: side-bar;
         background-color: #009FB7;
     }
 }
